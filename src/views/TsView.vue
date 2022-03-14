@@ -7,8 +7,19 @@
     <div class="page">
       <div class="left">
         <ul>
-          <li><router-link to="/tsview/tsa">ts类型编程基础</router-link></li>
-          <li><router-link to="/tsview/tsb">ts类型表达式</router-link></li>
+          <li><router-link to="/tsview/ts-a">什么是TS，TS和JS区别</router-link></li>
+          <li><router-link to="/tsview/ts-b">TS-基础-函数</router-link></li>
+           <li><router-link to="/tsview/ts-c">TS-interface接口</router-link></li>
+          <li><router-link to="/tsview/ts-d">TS-class类</router-link></li>
+          <li><router-link to="/tsview/ts-e">TS-枚举（enum）</router-link></li>
+          <li><router-link to="/tsview/ts-h">TS进阶-高级类型</router-link></li>
+          <li><router-link to="/tsview/ts-i">TS进阶-高级类型泛型</router-link></li>
+          <li><router-link to="/tsview/ts-j">TS进阶-高级索引类型</router-link></li>
+          <li><router-link to="/tsview/ts-f">TS进阶-高级映射类型</router-link></li>
+          <li><router-link to="/tsview/ts-g">TS进阶-高级条件类型</router-link></li>
+
+           <li><router-link to="/tsview/ts-k">TS进阶-高级工具类型</router-link></li>
+            <li><router-link to="/tsview/ts-l">TS声明文件</router-link></li>
         </ul>
       </div>
       <div class="right">

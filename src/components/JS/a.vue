@@ -78,14 +78,19 @@
   _.max([4, 2, 8, 6]) // 返回数组中的最大值 => 8
   _.intersection([1, 2, 3], [2, 3, 4]) // 返回多个数组的交集 => [2, 3]
 
-  9. mescroll.js n一款精致的、在H5端运行的下拉刷新和上拉加载插件，主要用于列表分页、刷新等场景
+  9. lodash-es
+  lodash-es 是着具备 ES6 模块化的版本，只需要直接引入就可以。
+  import {isEmpty,forIn, cloneDeep} from 'lodash-es';
+
+  10. mescroll.js n一款精致的、在H5端运行的下拉刷新和上拉加载插件，主要用于列表分页、刷新等场景
   </pre>
     参考地址： https://mp.weixin.qq.com/s/Mrz8vHJaFAAjCT164kh5gw
   </div>
 </template>
 
 <script lang="ts">
-import {onMounted} from 'vue'
+import {onMounted} from 'vue';
+import {cloneDeep} from 'lodash-es'
 export default {
   // setup() {
   //   onMounted(() => {

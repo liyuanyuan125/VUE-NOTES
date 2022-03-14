@@ -138,14 +138,55 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import("../views/TsView.vue"),
     children: [
       {
-        path: 'tsa',
+        path: 'ts-a',
         name: 'tsa',
         component: () => import('../components/TS/a.vue')
       },
       {
-        path: 'tsb',
+        path: 'ts-b',
         name: 'tsb',
         component: () => import('../components/TS/b.vue')
+      },
+      {
+        path: 'ts-c',
+        name: 'ts-c',
+        component: () => import('../components/TS/c.vue')
+      },
+      {
+        path: 'ts-d',
+        component: () => import('../components/TS/d.vue')
+      },
+      {
+        path: 'ts-e',
+        component: () => import('../components/TS/e.vue')
+      },
+      {
+        path: 'ts-f',
+        component: () => import('../components/TS/f.vue')
+      },
+      {
+        path: 'ts-g',
+        component: () => import('../components/TS/g.vue')
+      },
+      {
+        path: 'ts-h',
+        component: () => import('../components/TS/h.vue')
+      },
+      {
+        path: 'ts-i',
+        component: () => import('../components/TS/i.vue')
+      },
+      {
+        path: 'ts-j',
+        component: () => import('../components/TS/j.vue')
+      },
+      {
+        path: 'ts-k',
+        component: () => import('../components/TS/k.vue')
+      },
+      {
+        path: 'ts-l',
+        component: () => import('../components/TS/l.vue')
       },
     ],
   },
