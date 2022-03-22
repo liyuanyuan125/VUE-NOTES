@@ -5,7 +5,9 @@
        参考地址： https://juejin.cn/post/7002839760792190989
        参考地址： https://juejin.cn/post/6957597810938085384
        参考地址： https://juejin.cn/post/6892994632968306702#heading-18
-      webpack 两个优化方面 1. 优化开发体验(优化webpack构建速度)， 2. 优化输出质量(优化发布线上的代码，减少用户能感知的加载时间)
+      webpack 两个优化方面 (打包速度和打包体积)
+       1. 优化开发体验(优化webpack构建速度)，提升打包速度
+       2. 优化打包体积，主要是提升产品的使用体验(优化发布线上的代码，减少用户能感知的加载时间)
       <h5>1. webpack分析工具</h5>
       1. speed-measure-webpack-plugin（smp）
        通过smp了解webpack构建过程中，每一个阶段的loader和plugin工作花费的时间；

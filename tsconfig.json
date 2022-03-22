@@ -33,7 +33,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ],
+, "src/directive/downLoad.js"  ],
   "exclude": [
     "node_modules"
   ]

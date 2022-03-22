@@ -8,7 +8,7 @@
       <div class="left">
         <ul>
           <!-- css  -->
-          <li><router-link to="/note/note-a">1.flex总结</router-link></li>
+          <li><router-link to="/note/note-a">1.vue内点击url下载文件</router-link></li>
           <li><router-link to="/note/note-b">1-1.移动端适配方案viewport</router-link></li>
           <li><router-link to="/note/note-d">1-2.盒子模型</router-link></li>
           <li><router-link to="/note/note-e">1-3.为什么要使用flex布局</router-link></li>

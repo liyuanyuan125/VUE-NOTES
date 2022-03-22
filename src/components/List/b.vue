@@ -3,14 +3,6 @@
     <pre>
       参考地址：https://juejin.cn/post/7016593221815910408
       参考地址：https://juejin.cn/post/6992843117963509791
-      重点有浏览器缓存、Http2.0、Https通信过程、TCP与UDP、DNS解析、CDN缓存等。
-      HTTP1, HTTP2, HTTPS、常见的http状态码；
-      浏览从输入网址到回车发生了什么；
-      前端安全（CSRF、XSS）
-      前端跨域、浏览器缓存、cookie, session, token, localstorage, sessionstorage；
-      TCP连接(三次握手, 四次挥手)
-    </pre>
-    <pre>
       <h5>http 和 https基本概念</h5>
       htpp：超文本协议； https：安全的信息通道，确保数据的安全传输，安全的协议；
       <h5>http和https的区别缺点和优点</h5>
